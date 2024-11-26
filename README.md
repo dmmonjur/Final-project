@@ -64,4 +64,8 @@ Ensure the following are installed on your system:
 3. Configure environment variables:
   - Create a .env file in the root directory.
   - Add your API keys:
+   ```bash
+OPENAI_API_KEY=<your-openai-api-key>
+WEATHER_API_KEY=<your-weather-api-key>
+GDP_API_KEY=<your-gdp-api-key>
 
