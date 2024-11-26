@@ -55,6 +55,9 @@ Ensure the following are installed on your system:
    ```bash
    git clone <repository-url>
    cd <repository-name>
-
+---
+2. Install required dependencies:
+ ```bash
+   pip install -r requirements.txt
 
 
