@@ -62,34 +62,48 @@ Ensure the following are installed on your system:
 
    
 3. Configure environment variables:
-  - Create a .env file in the root directory.
-  - Add your API keys:
+- Create a .env file in the root directory.
+- Add your API keys:
 
-OPENAI_API_KEY=<your-openai-api-key>
-WEATHER_API_KEY=<your-weather-api-key>
-GDP_API_KEY=<your-gdp-api-key>
+   ```bash
+   OPENAI_API_KEY=<your-openai-api-key>
+   WEATHER_API_KEY=<your-weather-api-key>
+   GDP_API_KEY=<your-gdp-api-key>
 
 ---
 
 ## Usage
-The Relocation Insights Application is a data-driven tool designed to assist users in making informed relocation decisions. By integrating real-time data from multiple sources such as weather APIs, GDP statistics, and AI-driven insights, the app offers actionable recommendations tailored to user preferences.
+Running the Application:
 
-The project combines modern technologies like LangChain, Google Generative AI, and Streamlit to create a seamless experience for users.
+1. Launch the Streamlit app:
+   ```bash
+   streamlit run app.py
 
+
+2. Interact with the app to explore insights based on various factors like location and economic data.
+   
+
+   
+## Example Use Case
+ - Input your preferred relocation parameters (e.g., desired climate, economic stability).
+ - Receive data-driven recommendations with visualizations and actionable insights.
 ---
 
 ## Workflow
 1. Data Collection:
+  -Fetches real-time data from weather and GDP APIs.
+  - Incorporates AI-generated insights using LangChain.
+
+2. Data Processing:
+  - Processes raw data for analysis using pandas.
+  - Chains APIs dynamically for cohesive insights.
    
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
+3. Visualization:
+  - Displays insights interactively via Streamlit dashboards
+
+
 
    
-3. Configure environment variables:
-  - Create a .env file in the root directory.
-  - Add your API keys:
-
 ---
 
 ## Result
