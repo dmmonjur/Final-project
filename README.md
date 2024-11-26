@@ -57,7 +57,11 @@ Ensure the following are installed on your system:
    cd <repository-name>
 ---
 2. Install required dependencies:
- ```bash
+
    pip install -r requirements.txt
 
+   
+3. Configure environment variables:
+  - Create a .env file in the root directory.
+  - Add your API keys:
 
