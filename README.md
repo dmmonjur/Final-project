@@ -1,7 +1,5 @@
 # Final-project
 
-readme_content = """
-# Relocation Insights Application
 
 ## Project Overview
 This project integrates multiple data sources to provide relocation insights, including weather patterns, GDP data, and AI-generated recommendations. The app employs modern tools like LangChain, Streamlit, and advanced API chaining for dynamic data analysis and visualization.
