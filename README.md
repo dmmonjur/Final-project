@@ -31,23 +31,5 @@ To run this application locally, follow these steps:
 - Add more AI-driven insights for personalization.
 
 ---
-"""
 
-# Prepare the slide content in a structured format for each slide
-slides_content = [
-    {"title": "Introduction", "content": "The app integrates multiple data sources to provide dynamic relocation insights, leveraging APIs and AI."},
-    {"title": "Data Sources", "content": "Weather APIs, GDP data, and AI-generated insights are combined to create actionable recommendations."},
-    {"title": "Workflow", "content": "Uses LangChain for API chaining, Streamlit for visualization, and integrates multiple data sources dynamically."},
-    {"title": "Code Highlights", "content": "Focuses on dependency setup, API integration, and data analysis using Python libraries like pandas and requests."},
-    {"title": "Results and Insights", "content": "Outputs detailed relocation insights, summarizing data from multiple sources for user decision-making."},
-    {"title": "Future Enhancements", "content": "Plans to incorporate more data sources, enhance AI insights, and improve app performance."}
-]
-
-# Save the README.md content to a file
-readme_path = '/mnt/data/README.md'
-with open(readme_path, 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-# Provide a summary of the prepared outputs
-readme_path, slides_content  # README saved and slide structure defined
 
